@@ -1,10 +1,10 @@
 .PHONY: run
 run: all
-	./challenge1
+	./challenge2
 
 .PHONY: all
-all: challenge1
-	gcc -o challenge1 main.c
+all: challenge2
+	gcc -o challenge2 main.c
 
 challenge1: main.c
 	gcc -o $@ $^
