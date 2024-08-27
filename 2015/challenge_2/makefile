@@ -6,5 +6,5 @@ run: all
 all: challenge2
 	gcc -o challenge2 main.c
 
-challenge1: main.c
+challenge2: main.c
 	gcc -o $@ $^
