@@ -1,12 +1,21 @@
 #include <stdio.h>
 
+typedef struct box_sides{
+  int x, y, z;
+} box_sides;
+
 int part1(char* input_file);
 int part2(char* input_file);
 
+
 int main(int argc, char** argv){
   
-  printf("The answer to part 1 is: %d\n",part1("input.txt"));
-  printf("The answer to part 2 is: %d\n",part2("input.txt"));
+  //printf("The answer to part 1 is: %d\n",part1("input.txt"));
+  //printf("The answer to part 2 is: %d\n",part2("input.txt"));
+  
+  printf("The answer to part 1 is: %s\n","TODO");
+  printf("The answer to part 2 is: %s\n","TODO");
+  
   return 0;
 }
 
